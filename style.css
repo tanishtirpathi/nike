@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Playwrite ng Modern;
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  box-shadow: 1px 1px 10px black;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+  align-items: center;
+  margin: 0px 50px;
+  justify-content: space-evenly;
+}
+nav ul li {
+  padding: 10px 20px;
+  transition: all 0.4s ease-out;
+}
+nav ul li:hover {
+  box-shadow: 2px 2px 10px rgb(90, 0, 0);
+  border-radius: 5px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #000000;
+  font-weight: 900;
+  font-size: 17px;
+}
+nav .logo img {
+  margin: 0px 40px;
+  height: 50px;
+  width: 100px;
+}
+/* ^ slider  */
+.video {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+}
+.video video {
+  width: 100%;
+  height: 85vh;
+  border: 5px solid whitesmoke;
+}
+
+/* * catagoury */
+#h1 {
+  font-size: 70px;
+  font-weight: 900;
+  text-align: center;
+}
+
+.cata {
+  margin: 20px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.card img {
+  border-radius: 10px;
+  width: 300px;
+  height: 400px;
+  box-shadow: 5px 5px 10px black;
+  transition: all 0.3s ease-out;
+}
+.card img:hover {
+  transform: scale(1.2);
+}
+
+.card button {
+  border-radius: 5px;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  border: 1px solid black;
+  font-weight: 900;
+  padding: 3px 30px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+.card button:hover {
+  transition: all 0.3s ease-out;
+  border-radius: 5px;
+  text-shadow: 2px 2px 2px whitesmoke;
+  background-color: rgb(190, 190, 190);
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  border: 1px solid black;
+  font-weight: 900;
+  padding: 3px 30px;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  flex-direction: column;
+}
+/* ? div is start here */
+.div {
+  display: flex;
+
+  align-items: start;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.div .img {
+  width: 100%;
+  height: 550px;
+  overflow: hidden;
+  transition: all 0.3s ease-out;
+}
+.div .img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+.shoes {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 60px;
+  justify-content: center;
+}
+
+.shoes h1 {
+  font-size: 52px;
+  text-shadow: 2px 2px 2px rgb(194, 194, 0);
+  font-weight: 700;
+  margin: 50px 10px;
+}
+.shoese img {
+  width: 200px;
+  height: 200px;
+  transition: all 0.3s ease-out;
+}
+.shoese img:hover {
+  transform: scale(1.4);
+  box-shadow: 0px 0px 5px black;
+}
